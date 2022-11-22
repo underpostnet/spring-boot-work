@@ -8,7 +8,6 @@
 
 **spring-boot-starter-test** : It is used to test Spring Boot applications with libraries including JUnit, Hamcrest and Mockito.
 
-
 ### Usage
 
 
