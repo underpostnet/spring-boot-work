@@ -9,8 +9,8 @@ import com.work.demo.modules._files;
 import com.work.demo.modules._paths;
 
 @RestController
-public class HelloWorldController {
-    @RequestMapping("/hello")
+public class ReadJSON {
+    @RequestMapping("/json")
     public String hello() throws IOException {
         _paths confPath = new _paths("C:/dd/spring-boot/main/src/main/java/com/work/demo/");
         return _files.getRawContent(confPath.getPathFromRelative("./modules/test.json"));
