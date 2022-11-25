@@ -18,7 +18,16 @@
 - **JUnit4** : A test framework which uses annotations to identify methods that specify a test.
 
 
-### Usage
+#### Install
+
+
+- `mvn package`
+
+
+- `mvn install`
+
+
+#### Usage
 
 
 - run gradle app `./gradlew bootRun`
