@@ -1,0 +1,26 @@
+{
+    "deepLinking":true,
+    "displayOperationId":false,
+    "defaultModelsExpandDepth":1,
+    "defaultModelExpandDepth":1,
+    "defaultModelRendering":"example",
+    "displayRequestDuration":false,
+    "docExpansion":"none",
+    "filter":false,
+    "operationsSorter":"alpha",
+    "showExtensions":false,
+    "showCommonExtensions":false,
+    "tagsSorter":"alpha",
+    "validatorUrl":"",
+    "supportedSubmitMethods":[
+       "get",
+       "put",
+       "post",
+       "delete",
+       "options",
+       "head",
+       "patch",
+       "trace"
+    ],
+    "swaggerBaseUiUrl":""
+ }
