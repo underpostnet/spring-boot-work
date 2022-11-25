@@ -27,3 +27,16 @@
 - run Maven app `./mvnw spring-boot:run`
 
 
+#### Docker Usage
+
+
+- build dev docker image `docker build . -t underpost-sb`
+
+
+- create volume `docker volume create underpost-sb-vol`
+
+
+- run dev image `docker run --name live-underpost-sb -p 41061:8080 underpost-sb`
+
+
+- get a shell terminal inside your container `docker exec -ti live-underpost-sb bash`
