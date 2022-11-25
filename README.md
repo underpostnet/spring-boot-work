@@ -48,7 +48,7 @@
 - create volume `docker volume create underpost-sb-vol`
 
 
-- run dev image `docker run --name live-underpost-sb -p 41061:8080 underpost-sb`
+- run dev image `docker run --name live-underpost-sb -p 41061:8080 -v underpost-sb-vol:/tmp underpost-sb`
 
 
 - get a shell terminal inside your container `docker exec -ti live-underpost-sb /bin/sh`
@@ -64,8 +64,6 @@ Swagger [springdoc](https://springdoc.org/) auto generate Documentation:
 
 
 - `http://server:port/context-path/v3/api-docs`
-
-
 
 
 #### operative system image info
