@@ -48,4 +48,4 @@
 - run dev image `docker run --name live-underpost-sb -p 41061:8080 underpost-sb`
 
 
-- get a shell terminal inside your container `docker exec -ti live-underpost-sb bash`
+- get a shell terminal inside your container `docker exec -ti live-underpost-sb /bin/sh`
