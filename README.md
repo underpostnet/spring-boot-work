@@ -1,4 +1,4 @@
-### Dependencies
+#### Dependencies
 
 
 - **spring-boot-starter-web** : It is used for building web layer, including REST APIs, applications using Spring MVC. Uses Tomcat as the default embedded container.
@@ -49,3 +49,17 @@
 
 
 - get a shell terminal inside your container `docker exec -ti live-underpost-sb /bin/sh`
+
+
+#### operative system image info
+
+
+````
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.9.4
+PRETTY_NAME="Alpine Linux v3.9"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://bugs.alpinelinux.org/"
+
+````
