@@ -61,5 +61,4 @@ VERSION_ID=3.9.4
 PRETTY_NAME="Alpine Linux v3.9"
 HOME_URL="https://alpinelinux.org/"
 BUG_REPORT_URL="https://bugs.alpinelinux.org/"
-
 ````

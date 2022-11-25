@@ -1,7 +1,7 @@
 # demo-0.0.1-SNAPSHOT
 
 FROM openjdk:17-jdk-alpine AS builder
-WORKDIR target/dependency
+WORKDIR /target/dependency
 ARG APPJAR=target/*.jar
 COPY ${APPJAR} demo-0.0.1-SNAPSHOT.jar
 RUN jar -xf ./demo-0.0.1-SNAPSHOT.jar
