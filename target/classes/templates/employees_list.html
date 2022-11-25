@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <table>
+      <tr th:each="employee : ${employees}">
+        <td th:text="${employee.id}">1</td>
+        <td><a href="#" th:text="${employee.firstName}">Title ...</a></td>
+        <td th:text="${employee.lastName}">Text ...</td>
+        <td th:text="${employee.email}">Text ...</td>
+      </tr>
+    </table>
+  </body>
+</html>

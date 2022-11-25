@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.work.demo.CustomerRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.61 s <<< FAILURE! - in com.work.demo.CustomerRepositoryTests
+com.work.demo.CustomerRepositoryTests  Time elapsed: 0.603 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.work.demo.AccessingDataJpaApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [c:\dd\spring-boot\main\target\classes\com\work\demo\AccessingDataJpaApplication.class], Generic bean: class [com.work.demo.DemoApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [c:\dd\spring-boot\main\target\classes\com\work\demo\DemoApplication.class]]
+
