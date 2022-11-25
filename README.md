@@ -15,19 +15,17 @@
 
 - **spring-boot-starter-thymeleaf** : A Java template engine for processing and creating HTML, XML, JavaScript, CSS and text.
 
+
 - **Junit4** : A test framework which uses annotations to identify methods that specify a test.
-
-
-- **Swagger** : Set of rules, specifications and tools for developing and describing RESTful APIs. The Swagger framework allows developers to create interactive, machine and human-readable API documentation.
 
 
 #### Install
 
 
-- `mvn package`
-
-
 - `mvn install`
+
+
+- `mvn package`
 
 
 #### Usage
@@ -54,7 +52,7 @@
 - get a shell terminal inside your container `docker exec -ti live-underpost-sb /bin/sh`
 
 
-####  Docs
+<!-- ####  Docs
 
 
 Swagger auto generate JSON with API REST Documentation:
@@ -63,7 +61,7 @@ Swagger auto generate JSON with API REST Documentation:
 - Endpoints: **GET** `/v3/api-docs`
 
 
-- UI Config: **GET** `/swagger-resources/configuration/ui`
+- UI Config: **GET** `/swagger-resources/configuration/ui` -->
 
 
 #### operative system image info
